@@ -10,3 +10,8 @@ whatsapp-red-dragon/
 │   ├── styles.css
 │   └── script.js
 └── README.md
+
+
+*get you whats app bot here*
+pair code🤖
+qr code✅
