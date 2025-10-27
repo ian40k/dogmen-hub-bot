@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dogman hub and vibe squad Bot</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🐉 RED DRAGON WHATSAPP BOT</h1>
+            <p>Link your WhatsApp to use Red Dragon commands</p>
+        </div>
+
+        <div class="qr-section">
+            <h2>📱 Link Your WhatsApp</h2>
+            <div id="qrCode"></div>
+            <div id="status"></div>
+            <button onclick="generateQR()">Generate New QR Code</button>
+        </div>
+
+        <div class="commands-section">
+            <h3>🎮 Available Commands:</h3>
+            <div class="command-list">
+                <div class="command">.ping / !ping - Show ping with posts</div>
+                <div class="command">!daily - Claim daily reward</div>
+                <div class="command">!work - Work for money</div>
+                <div class="command">!balance - Check balance</div>
+                <div class="command">!gamble [amount] - Gamble money</div>
+                <div class="command">!profile - View profile</div>
+                <div class="command">!help - Show all commands</div>
+            </div>
+        </div>
+
+        <div class="instructions">
+            <h3>📋 How to Link:</h3>
+            <ol>
+                <li>Open WhatsApp on your phone</li>
+                <li>Go to Settings → Linked Devices</li>
+                <li>Tap "Link a Device"</li>
+                <li>Scan the QR code above</li>
+                <li>Start using commands in any chat!</li>
+            </ol>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/qrcode@1.5.0/build/qrcode.min.js"></script>
+    <script src="script.js"></script>
+</body>
+  </html>
