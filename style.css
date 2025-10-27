@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #8B0000, #000000);
+    color: white;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+    background: rgba(139, 0, 0, 0.8);
+    padding: 25px;
+    border-radius: 15px;
+    border: 3px solid #FFD700;
+}
+
+.header h1 {
+    color: #FFD700;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    margin-bottom: 10px;
+}
+
+.qr-section {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 25px;
+    border-radius: 15px;
+    border: 2px solid #FFD700;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+#qrCode {
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+#status {
+    margin: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+button {
+    padding: 12px 25px;
+    background: #8B0000;
+    color: #FFD700;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 10px;
+}
+
+button:hover {
+    background: #A52A2A;
+}
+
+.commands-section, .instructions {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid #FFD700;
+    margin-bottom: 20px;
+}
+
+.command-list {
+    display: grid;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.command {
+    background: rgba(139, 0, 0, 0.5);
+    padding: 12px;
+    border-radius: 8px;
+    border-left: 4px solid #FFD700;
+    font-family: monospace;
+}
+
+.instructions ol {
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.instructions li {
+    margin-bottom: 10px;
+    line-height: 1.5;
+  }
